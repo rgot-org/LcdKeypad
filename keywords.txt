@@ -1,0 +1,18 @@
+########################################################
+# Syntax Coloring Map for LcdKeypad Library #
+########################################################
+# Class LcdKeypad
+###################################################################
+LcdKeypad	KEYWORD1
+
+###################################################################
+# Methods and Functions LcdKeypad
+###################################################################
+btnRIGHT        LITERAL2
+btnUP           KEYWORD3
+btnDOWN         KEYWORD3
+btnLEFT         KEYWORD3
+btnSELECT       KEYWORD3
+btnNONE         KEYWORD3
+readButton      KEYWORD2
+getLastButton	KEYWORD2
