@@ -1,6 +1,6 @@
 #include "LcdKeypad.h"
 LcdKeypad lcd_keypad; // instanciation du shield lcd_keypad
-#define KEYPAD_V1
+//#define KEYPAD_V1
 void setup() {
 }
 void loop()
