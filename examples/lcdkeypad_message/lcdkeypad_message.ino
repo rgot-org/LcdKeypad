@@ -1,12 +1,14 @@
 #include "LcdKeypad.h"
 LcdKeypad lcd_keypad; // instanciation du shield lcd_keypad
 //#define KEYPAD_V1
+
 void setup() {
+	Serial.begin(9600);
 }
 void loop()
 {
 	byte btn = lcd_keypad.getLastButton();  // lecture du dernier bouton presse	
-	if (btn != lcd_keypad.btnNONE) // si un bouton a été pressé
+	if (btn != lcd_keypad.btnNONE) // si un bouton a ï¿½tï¿½ pressï¿½
 	{
 		lcd_keypad.clear();
 		switch (btn)
